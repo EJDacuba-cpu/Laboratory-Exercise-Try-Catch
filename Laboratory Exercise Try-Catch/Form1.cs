@@ -12,6 +12,10 @@ namespace Laboratory_Exercise_Try_Catch
 {
     public partial class Form1 : Form
     {
+              private string _FullName;
+        private int _Age;
+        private long _ContactNo;
+        private long _StudentNo;
         public Form1()
         {
             InitializeComponent();
@@ -19,6 +23,7 @@ namespace Laboratory_Exercise_Try_Catch
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
 
         }
 
@@ -29,6 +34,18 @@ namespace Laboratory_Exercise_Try_Catch
 
         private void label2_Click(object sender, EventArgs e)
         {
+            string[] ListOfProgram = new string[]{
+                "BS Information Technology",
+                 "BS Computer Science",
+                 "BS Information Systems",
+                 "BS in Accountancy",
+                 "BS in Hospitality Management",
+                 "BS in Tourism Management"
+
+
+            }
+
+
 
         }
 

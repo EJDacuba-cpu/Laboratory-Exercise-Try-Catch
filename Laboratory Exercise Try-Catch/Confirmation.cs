@@ -12,9 +12,15 @@ namespace Laboratory_Exercise_Try_Catch
 {
     public partial class Confirmation : Form
     {
+
         public Confirmation()
         {
             InitializeComponent();
+        }
+
+        private void Confirmation_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
